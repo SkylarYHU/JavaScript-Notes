@@ -1,4 +1,4 @@
-## Type Conversion(类型转换)
+## Type Conversion(Manually)
 
 ```javascript
 const birthYear = "1997";
