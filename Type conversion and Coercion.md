@@ -12,6 +12,10 @@ console.log(Number(birthYear) + 18);
 
 // Type conversion can't change the original value type
 console.log(birthYear + 18);
+
+console.log(Boolean({})); //true
+console.log(Boolean(0)); //false
+
 ```
 
 ## Type Coercion (Automatic)
