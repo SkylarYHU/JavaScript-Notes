@@ -39,7 +39,10 @@ if (userName === "Admin") {
   const password = prompt("Enter your password: ");
   if (password === "TheMaster") {
     alert("Welcome!");
-    <span style="color: red;">//取消输入可以处理为 password === null</span>
+ ```
+  ```diff
+   -//取消输入可以处理为 password === null
+  ```javascript
   } else if (password === "" || password === null) {
     alert("Canceled");
   } else {
