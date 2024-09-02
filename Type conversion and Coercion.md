@@ -1,5 +1,7 @@
 ## Type Conversion (Manually)
 
+https://zh.javascript.info/type-conversions
+
 ```javascript
 const birthYear = "1997";
 
@@ -14,7 +16,7 @@ console.log(birthYear + 18);
 
 ## Type Coercion (Automatic)
 ```javascript
-//Same input due to type coercion
+// Same input due to type coercion
 console.log("I'm " + 23 + " years old.");
 console.log("I'm " + "23" + " years old.");
 ```
