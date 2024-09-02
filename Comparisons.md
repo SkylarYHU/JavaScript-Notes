@@ -18,6 +18,7 @@ alert( '' == false ); // true
 
 ### Strict equality 严格相等运算符 === 
 <p>在进行比较时不会做任何的类型转换，避免犯错</p>
+
 ```javascript
 alert( 0 === false ); // false，因为被比较值的数据类型不同
 ```
