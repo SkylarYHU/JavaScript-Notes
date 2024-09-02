@@ -1,4 +1,4 @@
-## Type Conversion(Manually)
+## Type Conversion (Manually)
 
 ```javascript
 const birthYear = "1997";
