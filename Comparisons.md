@@ -7,7 +7,8 @@ Notice:
 ```
 link: https://zh.javascript.info/comparison
 
-### Loose equality 普通的相等性检查 == 存在一个问题，因为它会进行类型转换，所以它不能区分出 0 和 false，也同样无法区分空字符串和 false
+### Loose equality 普通的相等性检查 == 
+<p>存在一个问题，因为它会进行类型转换，所以它不能区分出 0 和 false，也同样无法区分空字符串和 false</p>
 
 ```javascript
 alert( 0 == false ); // true
@@ -15,7 +16,8 @@ alert( '' == false ); // true
 "2" > "12" → true //基于 Unicode 编码值
 ```
 
-### Strict equality 严格相等运算符 === 在进行比较时不会做任何的类型转换，避免犯错
+### Strict equality 严格相等运算符 === 
+<p>在进行比较时不会做任何的类型转换，避免犯错</p>
 ```javascript
 alert( 0 === false ); // false，因为被比较值的数据类型不同
 ```
