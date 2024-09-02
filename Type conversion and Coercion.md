@@ -14,7 +14,7 @@ console.log(birthYear + 18);
 
 ## Type Coercion (Automatic)
 ```javascript
-//Same input due to type Coercion
+//Same input due to type coercion
 console.log("I'm " + 23 + " years old.");
 console.log("I'm " + "23" + " years old.");
 ```
